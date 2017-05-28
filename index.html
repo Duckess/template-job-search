@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Search Job</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	<body>
+		<nav class="nav-wrapper">
+			<ul class="nav-menu">
+				<li class="nav-item"><img src="images/tab-01.png" class="nav-img"><a href="#" >Search Business</a></li>
+				<li class="nav-item"><img src="images/tab-02.png" class="nav-img"><a href="#">Business Categories</a></li>
+				<li class="nav-item"><img src="images/tab-03.png" class="nav-img"><a href="#">Recent Locations</a></li>
+				<li class="nav-item"><img src="images/tab-04.png" class="nav-img"><a href="#">Agents Located</a></li>
+			</ul>
+		</nav>
+
+		<form class="form-container" action="#" method="POST">
+			<div class="form-wrapper">
+				<div class="form-group">
+					<label>Business Name</label>
+					<input type="text" placeholder="enter a name" name="businessName">
+				</div>
+				<div class="form-group">
+					<label>Country</label>
+					<input type="text" placeholder="search by country" name="country">
+				</div>
+				<div class="form-group">
+					<label>City / State</label>
+					<input type="text" placeholder="search by city or state" name="cityState">
+				</div>
+				<div class="form-group">
+					<label>ZIP / Postal Code</label>
+					<input type="text" placeholder="enter a postal code" name="zipPostalCode">
+				</div>
+			</div>
+
+			<div class="form-wrapper">
+				<div class="form-group">
+					<label>Employers</label>
+					<input type="number" placeholder="1000-5000" name="employers">
+				</div>
+				<div class="form-group">
+					<label>Startup Date</label>
+					<input type="date" placeholder="mm/dd/yyyy" name="startupDate">
+				</div>
+				<div class="form-group">
+					<label>Job Opportunity</label>
+					<input type="text" placeholder="any" name="jobOpportunity">
+				</div>
+				<div class="form-wrapper button-wrapper">
+					<input type="submit" value="Let's find your job" class="button">
+				</div>
+			</div>
+		</form>
+	</body>
+</html>
